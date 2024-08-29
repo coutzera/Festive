@@ -28,6 +28,10 @@ main {
   & .main-container {
     margin-inline: 8.125rem;
     margin-top: 5rem;
+
+    & header h1 {
+      font: var(--heading-md);
+    }
   }
 }
 
@@ -50,7 +54,7 @@ aside {
       margin-top: 2rem;
       position: absolute;
       z-index: 1;
-      
+
       & #logo-festive {
         width: 2.86rem;
         height: 3rem;
