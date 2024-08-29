@@ -33,4 +33,15 @@
 
   --text-body: #c8cdd0;
   --text-heading: #f9f9f9;
+
+  /* TIPOGRAFIA */
+
+  --logo: normal 2.5rem / auto "Leckerli One", cursive;
+
+  --heading-md: bold 1.75rem / auto "Baloo 2", sans-serif;
+  --heading-sm: bold 1.125rem / auto "Baloo 2", sans-serif;
+
+  --body-md: normal 1rem / auto "Open Sans", sans-serif;
+  --body-sm: normal 0.875rem / auto "Open Sans", sans-serif;
+  --body-xs: normal 0.5rem / auto "Open Sans", sans-serif;
 }
