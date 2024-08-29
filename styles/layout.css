@@ -43,5 +43,33 @@ aside {
   & .aside-container {
     max-width: 31.25rem;
     margin-left: auto;
+    position: relative;
+
+    & header {
+      margin-inline: 2rem;
+      margin-top: 2rem;
+      position: absolute;
+      z-index: 1;
+      
+      & #logo-festive {
+        width: 2.86rem;
+        height: 3rem;
+      }
+
+      & h2 {
+        font: var(--logo);
+        color: var(--pink);
+      }
+
+      & p {
+        font: var(--body-sm);
+        color: var(--text-heading);
+      }
+    }
+
+    & background {
+      width: 25rem;
+      height: auto;
+    }
   }
 }
