@@ -1,0 +1,47 @@
+#app {
+  max-height: 48rem;
+  min-width: 80rem;
+
+  display: grid;
+  grid-template-columns: 26.3rem auto;
+
+  border-radius: 0.857rem;
+  gap: 1.25rem;
+
+  margin-top: 5rem;
+  margin-inline: 5rem;
+
+  background-color: #131516;
+}
+
+main {
+  background-color: var(--shape-body);
+  max-height: 45.5rem;
+  min-width: 51.25rem;
+  overflow-y: auto;
+
+  margin-right: 1.25rem;
+  margin-top: 1.25rem;
+
+  border-radius: 0.857rem;
+
+  & .main-container {
+    margin-inline: 8.125rem;
+    margin-top: 5rem;
+  }
+}
+
+aside {
+  margin-block: 1.25rem;
+  margin-left: 1.25rem;
+
+  border-radius: 1.25rem;
+  overflow: hidden;
+
+  position: relative;
+
+  & .aside-container {
+    max-width: 31.25rem;
+    margin-left: auto;
+  }
+}

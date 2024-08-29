@@ -45,3 +45,15 @@
   --body-sm: normal 0.875rem / auto "Open Sans", sans-serif;
   --body-xs: normal 0.5rem / auto "Open Sans", sans-serif;
 }
+
+body {
+  background-color: #1e1e1e;
+  overflow: hidden;
+
+  color: var(--text-body);
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
